@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  margin: 0;
+}
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e6e9fa;
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+}
+.right {
+  width: 50%;
+  height: 100vh;
+  background: #3949ab;
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.left {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contaiener {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contaiener h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #343434;
+  margin-bottom: 20px;
+}
+#form {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.registr {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contaiener p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: end;
+  color: #6f74dd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#btn {
+  width: 358px;
+  height: 40px;
+  background: #3949ab;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.message {
+  width: 358px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-left: 5px;
+  border-radius: 15px;
+}
+input:focus {
+  outline: none;
+}
+.pass {
+  width: 358px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#view {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.right h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 200%;
+  text-align: center;
+  color: #ffffff;
+}
+.right p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 200%;
+  text-align: center;
+  color: #ffffff;
+}
+.carusel {
+  width: 467px;
+  height: 467px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+}
+.art {
+  width: 100%;
+  height: 100%;
+}
+
+.owl-dots button span {
+  background-color: brown !important;
+}
+
+.owl-dots button.active span {
+  background-color: rgb(57, 202, 20) !important;
+}
+
+.form-group {
+  width: 300px;
+}
+
+.filepond {
+  margin-top: 20px;
+}
+
+.signature_block {
+  border: 1px solid gray;
+}

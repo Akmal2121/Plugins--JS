@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./plugins/owl-caroussel/owl-carousel.css" />
+    <link rel="stylesheet" href="./plugins/owl-caroussel/owl-carusel.css" />
+    <link
+      rel="stylesheet"
+      href="./plugins/filepond/filepond-plugin-image-preview.min.css"
+    />
+    <link rel="stylesheet" href="./plugins/filepond/filepond.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/response.css" />
+  </head>
+  <body>
+    <main>
+      <div class="right">
+        <div class="owl-carousel owl-theme carusel">
+          <div>
+            <img class="art" src="./images/Art.png" alt="" width="467" />
+            <h3>Welcome abroad my friend</h3>
+            <p>just a couple of clicks and we start</p>
+          </div>
+          <div>
+            <img class="art" src="./images/Art.png" alt="" width="467" />
+            <h3>Welcome abroad my friend</h3>
+            <p>just a couple of clicks and we start</p>
+          </div>
+          <div>
+            <img class="art" src="./images/Art.png" alt="" width="467" />
+            <h3>Welcome abroad my friend</h3>
+            <p>just a couple of clicks and we start</p>
+          </div>
+        </div>
+      </div>
+      <div class="left">
+        <div class="contaiener">
+          <h2>Welcome</h2>
+          <form id="form">
+            <div class="registr">
+              <div class="message">
+                <input type="text" placeholder="Phone" id="phone" />
+              </div>
+              <div class="message">
+                <img src="./images/Group.png" alt="" width="24" height="24" />
+                <input type="text" id="email" placeholder="Email" />
+              </div>
+              <div class="pass">
+                <img src="./images/Group.svg" alt="" width="24" height="24" />
+                <input type="password" placeholder="Password" id="password" />
+                <button id="view">
+                  <img src="./images/view.svg" alt="" width="24" height="24" />
+                </button>
+              </div>
+              <div class="form-group">
+                <input
+                  class="filepond"
+                  type="file"
+                  id="id"
+                  data-allow-reorder="true"
+                />
+              </div>
+              <div class="signature_block">
+                <canvas id="signature"></canvas>
+                <button id="signature_clear">Clear</button>
+              </div>
+            </div>
+            <p>Forgot password?</p>
+            <button type="button" id="btn">Login</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./plugins/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./plugins/owl-caroussel/owl-carousel.js"></script>
+    <script src="./plugins/filepond/filepond-plugin-file-encode.min.js"></script>
+    <script src="./plugins/filepond/filepond-plugin-file-validate-size.min.js"></script>
+    <script src="./plugins/filepond/filepond-plugin-file-validate-type.js"></script>
+    <script src="./plugins/filepond/filepond-plugin-image-exif-orientation.min.js"></script>
+    <script src="./plugins/filepond/filepond-plugin-image-preview.min.js"></script>
+    <script src="./plugins/filepond/filepond.min.js"></script>
+    <script src="./plugins/signature/signature_pad.umd.min.js"></script>
+    <script src="./plugins/inputmask/inputmask.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
